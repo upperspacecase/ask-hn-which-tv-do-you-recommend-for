@@ -1,0 +1,13 @@
+SCORE: 7/10
+
+TOP 3 FIXES:
+1. **Resolve the size contradiction.** The headline promises "65 to 85 inch" but the first pill in `src/components/Hero.tsx:6` is "60-65", and the brief says 60-80. A reader who picks "60-65" is immediately outside the headline's promise. Change `TARGET_SIZES` to `["65", "70-75", "77-85"]` or change the headline to "60 to 85 inch". One line either way.
+2. **Move the scoring criteria above the fold.** The most believable, differentiated copy on the page is buried in muted caption text under the video in `src/components/DemoPlayer.tsx`: boot-to-HDMI time, nag screens, setup roadblocks, and which ACR/voice/telemetry toggles survive a power cut. Add one sentence under the subhead: "Each panel scored on four things: boot-to-HDMI time, nag screens, setup roadblocks, and which ACR, voice, and telemetry toggles survive a power cut." That turns the headline question into a falsifiable promise. If you know the first-batch panel count and publish month, append it there too. It is the only proof the page can honestly offer right now.
+3. **Delete the dead footer links.** Privacy, Terms, X, and GitHub all point to `#` in `src/components/Footer.tsx:1-7`. This audience will click "Privacy" first and "View source" second. A dead Privacy link on a page whose whole pitch is privacy is a trust hit. Keep Contact and the no-analytics line, remove the rest until real pages exist.
+
+GREEN FLAGS:
+- **Headline passes the uniqueness test.** RTINGS, Wirecutter, or Samsung could not sign "boot straight to HDMI when you never give them a network." It is visualizable and specific.
+- **Subhead is written in the customer's words.** Jellyfin, NAS, Shield, Apple TV, "before the box is upstairs." It would feel wrong to anyone outside the target group, which is exactly the point.
+- **One promise, one CTA.** The page asks for one thing. The two-step form qualifies the reader with source device and size, then rewrites the button into a personal promise ("Notify me about 85in panels tested with Apple TV"). That is a benefit CTA, not a label CTA.
+- **Honesty is doing proof's job.** "The panel above is a protocol walkthrough, not a verdict on any specific TV" and "One email. No tracking." are falsifiable and respect the reader. The "no analytics, third-party fonts, or pixels. View source." line is the right kind of flex for this crowd.
+- **Community strip names the right rooms.** Hacker News, r/privacy, r/selfhosted, r/jellyfin, Privacy Guides. Identity alignment over logo-wall vanity.

@@ -1,0 +1,13 @@
+Assumption: the behavioral test signal field was blank, so I'm optimizing for waitlist / pre-order email signups from the described crowd.
+
+PRINCIPLE 1: Authority Bias
+  Why it fits: Privacy engineers discount marketing copy and testimonials but defer to verifiable technical evidence, so credibility must come from proof they could reproduce themselves before they will hand over an email.
+  How to apply: Above the fold, before any CTA, place a monospaced "evidence block" per recommended panel: exact model and firmware version, a packet-capture summary (e.g. "0 outbound DNS/TCP attempts over 72h with wifi off, Ethernet unplugged, HDMI-CEC only"), and a link to the raw capture or method; every claim on the page gets a source link or is cut.
+
+PRINCIPLE 2: Reactance
+  Why it fits: This audience is primed to detect manipulation and will bounce (and post about it on HN) at the first countdown timer or fake scarcity, so the signup must feel like their choice, not a funnel.
+  How to apply: One plain CTA with explicit terms, e.g. "Email me when the tested list ships. One email. No tracking." Ship the page with zero third-party scripts and state that in a footer line ("This page loads no analytics, fonts, or pixels; view source"), and never use exit modals, urgency banners, or "N people joined" counters.
+
+PRINCIPLE 3: Commitment & Consistency
+  Why it fits: A small, self-descriptive first step makes the email ask feel like finishing something they already started, and it filters for the exact buyer (offline panel + single source device) the test needs to count.
+  How to apply: Split the form into two steps on one screen: step 1 asks two radio questions ("Source device: Apple TV / Shield / Linux mini PC / other" and "Target size: 60–65 / 70–75 / 77–85"); only after a selection does the email field appear with the button text echoing their answer ("Notify me about 75" panels tested with Apple TV").

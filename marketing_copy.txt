@@ -1,0 +1,19 @@
+HOOK: Which 65 to 85 inch 4K TVs still boot straight to HDMI when you never give them a network.
+
+SUBHEADLINE: For engineers who run Jellyfin off a NAS, feed the panel one Shield or Apple TV, and want to know before the box is upstairs whether the TV will nag, stall, or spy when it stays offline for life.
+
+VALUE_PROP:
+Every panel set up with the wifi password never typed and the ethernet port empty, then scored on setup roadblocks, boot-to-HDMI time, and nag screens.
+Settings teardown per model: which ACR, voice, and telemetry toggles exist, and whether they survive a factory reset or power cut.
+HDMI-CEC, 4K120, VRR, and eARC verified from the source box only, with firmware version and test date on every entry.
+
+CTA: Get the offline TV list
+
+SECONDARY_CTA: Read the test protocol
+
+OBJECTIONS:
+- "I'll just buy any TV and never connect it." Some sets block setup or re-prompt for a network on every boot, and you only find out after unboxing an 85 inch panel. The list tells you which ones do that before you order.
+- "RTINGS already reviews every TV." RTINGS tests picture quality with the TV online and updated. Nobody scores setup without a network, nag frequency, or whether the TV remembers HDMI 1 after a power cut.
+- "A commercial signage display solves this." At 75 inches and up, signage panels cost more and usually drop HDR, 4K120, and eARC. They are listed side by side with consumer sets so you can see exactly what the trade is.
+
+Assumption: the founding hypothesis was blank, so the copy treats the MVP as a tested, dated database of large panels scored on offline behavior, with the hypothesis being that this audience will sign up for and pay for that list. No test counts or results appear in the copy because none exist yet. The cmo diagnose script returned CMO1 (Invisible Product) as primary and CMO5 (No Tension) as secondary, so the hook anchors on the one claim no incumbent reviewer can sign: tested with the network never entered.

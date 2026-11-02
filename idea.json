@@ -1,0 +1,98 @@
+{
+  "status": "killed",
+  "killed_at_stage": 3,
+  "kill_reason": "Fails the Valuable and Urgent bars. The accepted fix is free and trivial: of the first 25 top-level answers on the candidate thread, roughly 15 say some version of 'buy any TV, never give it the wifi password, plug in an Apple TV / Shield / mini PC', and the 2022 duplicate thread (390 pts, 396 comments) reached the identical consensus. The author already knows this fix (they name Apple TV in the post). The only money anyone spends goes to a panel manufacturer (LG, Sony, Sceptre, commercial signage) or to Apple, not to software. No one in either thread quantifies a cost in hours or dollars; the residual pain ('which panel nags least when offline') is annoyance, which the rubric says to kill. Urgency is also weak: this is a one-off purchase that recurs every 7-10 years, with no deadline, blocked work, or money on the line, and the question itself has only resurfaced on HN roughly every 2-4 years. A product cannot sit between a free workaround and a hardware vendor's checkout. Search queries tried: HN Algolia '\"dumb tv\" privacy' (0 hits), 'smart tv tracking ACR' (10 hits, 3 relevant), 'tv without smart features' (Ask HN, 1 strong duplicate); Reddit JSON search via www.reddit.com and old.reddit.com for '\"dumb tv\" recommend privacy', 'tv privacy \"never connect\" wifi apple tv', '\"commercial display\" instead of smart tv' all returned HTTP blocks (no JSON), so Reddit evidence was not retrieved.",
+  "stage_2": {
+    "customer": "Privacy-focused software engineers and sysadmins (the HN / r/privacy / r/selfhosted crowd) who are buying a 60-80 inch 4K TV, already own or intend to buy an Apple TV, Nvidia Shield, or Linux mini PC as the only source device, refuse to put the panel on wifi, and will pay a $200-800 premium for a panel that behaves well while permanently offline. Many already run Jellyfin or Plex on a NAS and segment their LAN with OpenWRT, pfSense, or VLANs.",
+    "where": "Hacker News (Ask HN threads in 2022 and 2026 on this exact question), r/privacy, r/degoogle, r/selfhosted, r/jellyfin, r/PleX, r/hometheater, r/4kTV, r/homelab, privacyguides.net forum, RTINGS comment threads and the rootmy.tv / webOS homebrew Discord.",
+    "pays_for": "Apple TV 4K (~$130-150), Nvidia Shield Pro (~$200), Plex Pass or Emby Premiere, a NAS (Synology / UGREEN, $400-1000), OpenWRT or pfSense router hardware, VPN subscriptions, RTINGS or Consumer Reports memberships, and the premium on LG OLED / Sony Bravia panels they then keep offline."
+  },
+  "stage_3": {
+    "real_posts": [
+      "https://news.ycombinator.com/item?id=31706835",
+      "https://news.ycombinator.com/item?id=47854518",
+      "https://news.ycombinator.com/item?id=25275350",
+      "https://news.ycombinator.com/item?id=50188264"
+    ],
+    "urgent": "Weak. The post has no deadline, no blocked work, and no money on the line; it is a discretionary one-off purchase ('haven't owned a TV in years'). The question recurs on HN about once every 2-4 years, not weekly. Nothing in either thread describes someone who must act this week.",
+    "valuable": "Not quantifiable. No post states hours lost or dollars at stake. The consensus workaround (keep the panel offline, drive it from an Apple TV the author already plans to buy) costs $0 and about 30 seconds of not typing a wifi password. Remaining cost is 'the TV might nag about setup' or 'I lose HDMI-CEC smart-home automations', which is annoyance, not money."
+  },
+  "stage_4": null,
+  "stage_5": null,
+  "stage_6": null,
+  "app_name": "ask_hn_which_tv_do_you_recommend_for",
+  "summary": "Ask HN: Which TV do you recommend for privacy?",
+  "tech_stack": "Next.js + TypeScript + Tailwind CSS",
+  "id": "hn_50328896",
+  "title": "Ask HN: Which TV do you recommend for privacy?",
+  "url": "https://news.ycombinator.com/item?id=50328896",
+  "source": "hackernews",
+  "score": 158,
+  "num_comments": 302,
+  "_fallback_kill_stage": 3,
+  "_fallback_kill_reason": "Fails the Valuable and Urgent bars. The accepted fix is free and trivial: of the first 25 top-level answers on the candidate thread, roughly 15 say some version of 'buy any TV, never give it the wifi password, plug in an Apple TV / Shield / mini PC', and the 2022 duplicate thread (390 pts, 396 comments) reached the identical consensus. The author already knows this fix (they name Apple TV in the post). The only money anyone spends goes to a panel manufacturer (LG, Sony, Sceptre, commercial signage) or to Apple, not to software. No one in either thread quantifies a cost in hours or dollars; the residual pain ('which panel nags least when offline') is annoyance, which the rubric says to kill. Urgency is also weak: this is a one-off purchase that recurs every 7-10 years, with no deadline, blocked work, or money on the line, and the question itself has only resurfaced on HN roughly every 2-4 years. A product cannot sit between a free workaround and a hardware vendor's checkout. Search queries tried: HN Algolia '\"dumb tv\" privacy' (0 hits), 'smart tv tracking ACR' (10 hits, 3 relevant), 'tv without smart features' (Ask HN, 1 strong duplicate); Reddit JSON search via www.reddit.com and old.reddit.com for '\"dumb tv\" recommend privacy', 'tv privacy \"never connect\" wifi apple tv', '\"commercial display\" instead of smart tv' all returned HTTP blocks (no JSON), so Reddit evidence was not retrieved.",
+  "_kill_report": "KILLS -- 2026-11-02\n\nTotal candidates evaluated: 24\nKilled: 24  |  Passed to MVP: 0\n\nBy stage:\n  Stage 1 (signal):       19 killed\n  Stage 2 (customer):     2 killed\n  Stage 3 (problem):      3 killed\n  Stage 4 (alternatives): 0 killed\n  Stage 5 (approach):     0 killed\n  Stage 6 (hypothesis):   0 killed\n",
+  "_total_evaluated": 24,
+  "_total_killed": 24,
+  "_fallback": true,
+  "_runners_up": [
+    {
+      "status": "killed",
+      "killed_at_stage": 3,
+      "kill_reason": "Fails Urgent and Valuable. Read all 142 comments on the thread plus three HN Algolia searches. The problem is real (corroborated by martypitt, justforfunhere, fabioborellini, Gigachad in-thread; moosedev and the 'Beans Based AI Workflow' author elsewhere), but no one anywhere describes a deadline, money on the line, or blocked work. The responses to the author's explicit ask 'have you found ways' are: run fewer agents (FailMore cut 8 sessions to 2-3; justforfunhere, yulaow, victorbuilds, zuInnp all say work on one thing), take breaks, write worries on paper, use line-completion instead of agents (okl), or leave the field entirely (boogieknite to nursing, mschuster91 to an EE degree). The behavioral evidence is the opposite of urgency: the customer reduces usage or quits rather than seeking a tool. The only costs named are tired, anxious, unhappy, and 'cannot read or spell properly' after work. Zero hours/week, dollars, or lost deals quantified by any of the ~140 commenters. The nearest quantifiable item (Gigachad's 4000-line PRs shipping unreviewed) is a code-review-quality problem, not the author's mental-overload problem; reframing to it would be rationalizing. The three people who did solve it built personal tooling (imron/crt, FailMore/smalldocs, ccapndave's kanban) and philipp-gayret states the solution 'is often very personal; most tools don't particularly apply.' Cost is 'feels bad' only. Kill.",
+      "stage_2": {
+        "customer": "Employed senior/staff software engineers at companies with a top-down AI-adoption mandate, personally running 3-5 concurrent Claude Code or Cursor agent work streams and accountable for reviewing code they did not write, afraid that slowing down gets them fired. Five from the thread: mellosty (OP, 'so my boss does not fire me'), martypitt (4-5 concurrent work streams, 'the anxiety'), Hamuko ('my boss is demanding me to use AI'), Gigachad (reviewing 4000-line Claude PRs nobody understands), orwin ('too much just reviewing the code').",
+        "where": "Hacker News Ask HN threads; r/ExperiencedDevs; r/ClaudeAI and r/ClaudeCode; r/cursor; the Anthropic Developers Discord; company-internal #ai-tools Slack channels where the mandate lands.",
+        "pays_for": "Claude Max ($100 or $200/mo, frequently employer-paid), Cursor Pro ($20/mo and up), GitHub Copilot seats, and AI PR-review bots such as CodeRabbit and Copilot code review (Gigachad names the latter). Note the employer, not the engineer, is usually the payer, which weakens individual willingness to pay for a fatigue fix."
+      },
+      "stage_3": {
+        "real_posts": [
+          "https://news.ycombinator.com/item?id=50301479 (martypitt: '4-5 work streams concurrently, constantly context switching... the anxiety - OMG the anxiety'; justforfunhere: 'four to five different projects at the same time... excruciatingly painful'; fabioborellini: 'too much to review... cannot read or spell properly' after work)",
+          "https://hn.algolia.com/?q=parallel%20agents%20context%20switching%20exhausting&type=all (deaux quoting the 'A Beans Based AI Workflow' author: 'the context switching from managing two agents was exhausting')",
+          "https://hn.algolia.com/?q=reviewing%20AI%20generated%20code%20burnout&type=all (moosedev on 'The coming knowledge-work supply-chain crisis': 'Reviewing AI-generated code... I can feel I'll burn out if I keep pushing myself to do it')"
+        ],
+        "urgent": "FAILED. No deadline, money, or blocked work in 142 comments or 3 searches. Observed behavior is de-escalation (fewer sessions, one project at a time, FIM instead of agents) or exit (career changes). Nobody says 'I need something for this now.' OP is asking for tips, not a tool.",
+        "valuable": "FAILED. Named costs: tired, unhappy, anxious, 'cannot read or spell properly' after work, 'excruciatingly painful.' No hours/week, no dollars, no lost deals stated by anyone. The one near-quantifiable harm (4000-line unreviewed PRs) belongs to a different problem. Only cost is 'feels bad.'"
+      },
+      "stage_4": null,
+      "stage_5": null,
+      "stage_6": null,
+      "id": "hn_50301479",
+      "title": "Ask HN: Are you tired too in this AI era?",
+      "url": "https://news.ycombinator.com/item?id=50301479",
+      "source": "hackernews",
+      "score": 150,
+      "num_comments": 142
+    },
+    {
+      "status": "killed",
+      "killed_at_stage": 3,
+      "kill_reason": "Fails URGENT and VALUABLE. Urgent: no deadline, no money on the line, no blocked work in the post; the author explicitly counsels patience (\"real adoption might not come from one day to another\", \"lowkey growing\", \"would love to push the curve up\"). The sibling posts found are the same: 18 months of trying with a goal of 'a few new developers per week' (41424165), and a 2026-09 thread (49807227) where every HN reply told the poster stars are a vanity metric not worth chasing. Nobody in any thread would try a fix this week. Valuable: the only stated cost is 'growth is linear, not viral'; no hours, dollars, or lost deals are quantified by any author, and the desired outcome (going viral on HN/X) is a marketing result no 1-2 day software product can deliver. Supporting structural evidence from the alternatives check: the OSS-community-growth tool category has already consolidated away from this customer: orbit.love no longer resolves (Cloudflare 1016), crowd.dev was acquired by the Linux Foundation in April 2024 and is now an internal LFX data platform, Common Room repositioned to $2,500/mo sales buyer-intelligence, and a free 'Gingiris' 0-to-10k-stars playbook already exists. Small OSS founders demonstrably do not pay for growth tooling.",
+      "stage_2": {
+        "customer": "Founders (CEO or technical cofounder) of pre-seed/seed startups whose core product is an open-source developer-infra repo in the AI-agent space, currently at a few hundred to ~2k GitHub stars, with no devrel hire, doing their own distribution via X and LinkedIn posts. Pointable examples from the evidence: the desplega-ai/agent-swarm founders, the plasma-ai/fractal author who posted HN 49807227.",
+        "where": "Hacker News (Ask HN / Show HN), r/opensource, r/devrel, r/SideProject, r/LocalLLaMA and r/AI_Agents for agent-infra specifically, Latent Space Discord, DevRel Collective Slack, OSS Capital's COSS community, Indie Hackers, Product Hunt, the TLDR and Console.dev newsletters (as submitters).",
+        "pays_for": "X scheduling tools (Typefully, Buffer), product analytics (PostHog, Plausible), GitHub usage analytics (Scarf, free tier confirmed with paid credits), newsletter sponsorships, occasional devrel contractors or agencies, Product Hunt launch services. Verified today: Common Room starts at $2,500/mo billed annually, which is out of reach for this stage and aimed at sales teams, not maintainers."
+      },
+      "stage_3": {
+        "real_posts": [
+          "https://news.ycombinator.com/item?id=49807227",
+          "https://news.ycombinator.com/item?id=41424165",
+          "https://news.ycombinator.com/item?id=48035508",
+          "https://news.ycombinator.com/item?id=26678220",
+          "https://news.ycombinator.com/item?id=9801828"
+        ],
+        "urgent": "NOT MET. No deadline, revenue at risk, or blocked work in the candidate post or any sibling post. Candidate explicitly says real adoption 'might not come from one day to another' and growth is 'lowkey' positive. Sibling 41424165 has been at it 18 months with a weekly-trickle goal. Sibling 49807227's replies unanimously said not to chase stars. Zero evidence anyone would try a fix this week. Queries run: HN Algolia ask_hn for \"open source\" promote project stars; \"open source\" adoption stars; \"developer marketing\"; \"github stars\"; Reddit search blocked (network security page on both reddit.com and old.reddit.com).",
+        "valuable": "NOT MET. No author quantifies hours, dollars, or lost deals. The stated cost is 'linear not viral growth', which is a desired marketing outcome, not a measurable loss. The adjacent spend (devrel hire or agency) is inferred by me, not stated by any author."
+      },
+      "stage_4": null,
+      "stage_5": null,
+      "stage_6": null,
+      "id": "hn_50242424",
+      "title": "Ask HN: How do you grow OSS projects?",
+      "url": "https://news.ycombinator.com/item?id=50242424",
+      "source": "hackernews",
+      "score": 6,
+      "num_comments": 15
+    }
+  ]
+}
